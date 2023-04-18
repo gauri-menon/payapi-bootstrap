@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- Css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Javascript -->
+    <script src="./function.js"></script>
+
+    <title>Frontend Mentor | PayAPI Website Challenge</title>
+  </head>
+
+  <body class="page">
+    <div class="wrapper">
+      <!-- <header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <div class="container-xl">
+            <a class="nav-brand" href="./index.html">
+              <img src="./assets/Logo.svg" alt="Logo">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onClick="menuControl()">
+              <img class="menu-open" src="./assets/shared/mobile/menu.svg" alt="menu">
+              <img class="menu-close" src="./assets/shared/mobile/close.svg" alt="close menu">
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+              <div class="navbar-nav mr-auto">
+                <a class="nav-link m-auto" href="/pricing.html">Pricing</a>
+                <a class="nav-link m-auto" href="/about.html">About</a>
+                <a class="nav-link m-auto" href="/contact.html">Contact</a>
+              </div>
+              <div>
+                <button class="schedule border-0 rounded-pill m-auto">Schedule a Demo</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header> -->
+      <header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <div class="container-xl">
+            <a class="nav-brand" href="./index.html">
+              <img src="./assets/Logo.svg" alt="Logo">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onClick="menuControl()">
+              <img class="menu-open" src="./assets/shared/mobile/menu.svg" alt="menu">
+              <img class="menu-close" src="./assets/shared/mobile/close.svg" alt="close menu">
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+              <hr class="divide-nav m-auto d-sm-none">
+              <div class="navbar-nav mr-sm-auto">
+                <a class="nav-link m-auto" href="/pricing.html">Pricing</a>
+                <a class="nav-link m-auto" href="/about.html">About</a>
+                <a class="nav-link m-auto" href="/contact.html">Contact</a>
+              </div>
+              <div>
+                <button class="schedule border-0 rounded-pill m-auto">Schedule a Demo</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      
+
+      <!-- Main -->
+      <main class="about-page">
+        <section class="container-md text-center">
+          <span class="heading text-xl-left mb-4">
+            <h1 class="about-title m-auto">We empower innovators by delivering access to the financial system</h1>
+          </span>
+          <span class="about m-auto row flex-column flex-sm-row justify-content-sm-between">
+            <h1 class="col-4 text-sm-left">Our Vision</h1>
+            <p class="col text-sm-left">Our main goal is to build beautiful consumer experiences along with developer-friendly 
+              infrastructure. The result is an intelligent tool that gives everyone the ability to create 
+              amazing products that solve big problems. We are deeply focused on democratizing financial 
+              services through technology.</p>
+          </span>
+
+          <span class="about m-auto row flex-column flex-sm-row">
+            <h1 class="col-4 text-sm-left">Our Business</h1>
+            <p class="col text-sm-left">At the core of our platform is the technical infrastructure APIs that connect consumers. 
+              Our innovative product provides key insights for businesses and individuals, as well as 
+              robust reporting for traditional financial institutions and developers.</p>
+          </span> 
+        </section>
+
+        <!-- Team images -->
+        <picture>
+          <img src="./assets/about/desktop/image-team-members.jpg" alt="team image" class="team-picture">
+        </picture>
+
+        <section class="container-md text-center">
+          <hr class="start-line d-sm-none">
+          <span class="about team-details container row flex-column flex-sm-row m-auto">
+            <div class="col m-auto text-center">
+              <hr class="d-none d-sm-block">
+              <p>Team Members</p>
+              <h1>300+</h1>
+              <hr class="d-none d-sm-block">
+            </div>
+
+            <div class="col m-auto text-center">
+              <hr class="d-none d-sm-block">
+              <p>Offices in the US</p>
+              <h1>3</h1>
+              <hr class="d-none d-sm-block">
+            </div>
+
+            <div class="col m-auto text-center">
+              <hr class="d-none d-sm-block">
+              <p>Transactions analyzed</p>
+              <h1>10M+</h1>
+              <hr class="d-none d-sm-block">
+            </div>
+          </span>
+          <hr class="end-line d-sm-none">
+
+          <span class="about m-auto row flex-column flex-sm-row justify-content-sm-between">
+            <h1 class="col-4 text-sm-left">The Culture</h1>
+            <p class="col text-sm-left">We strongly believe there's always an opportunity to learn from each other outside of 
+              day-to-day work, whether it's company-wide offsites, internal hackathons, or co-worker meetups. 
+              We always value cross-team collaboration and diversity of thought, no matter the job title.</p>
+          </span>
+
+          <span class="about m-auto row flex-column flex-sm-row justify-content-sm-between">
+            <h1 class="col-4 text-sm-left">The People</h1>
+            <p class="col text-sm-left">We're all passionate about building a more efficient and inclusive financial infrastructure 
+              together. At PayAPI, we have diverse backgrounds and skills.</p>
+          </span>
+        </section>
+
+        
+        <section class="ready m-auto container-xl row flex-column flex-xl-row">
+          <h1 class="text-center text-xl-left m-auto col">Ready to start? </h1>
+          <span class="details col d-flex flex-column flex-sm-row m-auto ml-xl-0 justify-content-center justify-content-sm-between">
+            <input type="email" class="email border-0" placeholder="Enter email address">
+            <button class="schedule border-0 rounded-pill">Schedule a Demo</button>
+          </span>
+        </section>
+      </main>
+      
+
+
+      <!-- Page Footer -->
+      <footer>
+        <div class="container-xl m-auto text-center navbar-dark row flex-column flex-sm-row">
+          <picture class="logo col nav-brand m-auto text-sm-left">
+            <a class="nav-brand" href="./index.html"><img src="./assets/Logo-footer.svg" alt="Logo"></a>
+          </picture>
+          <div class="footer-navbar col row flex-column flex-sm-row m-auto">
+
+            <nav class="flex-nav footer col">
+              <div class="navbar-nav row flex-sm-row ">
+                <a class="nav-link col m-auto" href="/pricing.html">Pricing</a>
+                <a class="nav-link col m-auto" href="/about.html">About</a>
+                <a class="nav-link col m-auto" href="/contact.html">Contact</a>
+              </div>
+            </nav>
+            <span class="col text-sm-right">
+              <picture>
+                <img src="./assets/shared/desktop/facebook.svg" alt="facebook" class="social">
+                <img src="./assets/shared/desktop/twitter.svg" alt="twitter" class="social">
+                <img src="./assets/shared/desktop/linkedin.svg" alt="linkedin" class="social">
+              </picture>
+            </span>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

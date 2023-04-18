@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+    <!-- Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- Css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+    <!-- Javascript -->
+    <script src="./function.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+
+    <title>Frontend Mentor | PayAPI Website Challenge</title>
+  </head>
+
+  <body class="index page">
+    <div class="wrapper">
+      
+      <!-- Navbar -->
+      <header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <div class="container-xl">
+            <a class="nav-brand" href="./index.html">
+              <img src="./assets/Logo.svg" alt="Logo">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onClick="menuControl()">
+              <img class="menu-open" src="./assets/shared/mobile/menu.svg" alt="menu">
+              <img class="menu-close" src="./assets/shared/mobile/close.svg" alt="close menu">
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+              <hr class="divide-nav m-auto d-sm-none">
+              <div class="navbar-nav mr-sm-auto">
+                <a class="nav-link m-auto" href="/pricing.html">Pricing</a>
+                <a class="nav-link m-auto" href="/about.html">About</a>
+                <a class="nav-link m-auto" href="/contact.html">Contact</a>
+              </div>
+              <div>
+                <button class="schedule border-0 rounded-pill m-auto">Schedule a Demo</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <main>
+        <section class="row justify-content-between container-xl first-container m-auto flex-column flex-xl-row">
+          <picture class="col order-xl-2 m-auto d-flex justify-content-center justify-content-xl-end">
+            <img src="./assets/home/desktop/illustration-phone-mockup.svg" alt="Phone Mockup" class="phone-mockup">
+          </picture>
+          <span class="col text-center text-xl-left align-self-center">
+            <h1 class="start">Start building with our APIs for absolutely free.</h1>
+            <span class="details d-flex flex-column flex-sm-row m-auto ml-xl-0 justify-content-center justify-content-sm-between">
+              <input type="email" class="email border-0" placeholder="Enter email address">
+              <button class="schedule border-0 rounded-pill">Schedule a Demo</button>
+            </span>
+            <p>Have any questions? <b>Contact Us</b></p>
+          </span>
+        </section>
+
+        <!-- Mid page Footer -->
+        <section class="first-page-footer">
+          <div class="container-xl row m-auto flex-column flex-xl-row">
+            <div class="col col-md-6 m-auto text-center partners order-xl-2">
+              <picture>
+                <img src="./assets/shared/desktop/tesla.svg" alt="tesla">
+                <img src="./assets/shared/desktop/microsoft.svg" alt="microsoft">
+                <img src="./assets/shared/desktop/hewlett-packard.svg" alt="HP">
+                <img src="./assets/shared/desktop/oracle.svg" alt="oracle">
+                <img src="./assets/shared/desktop/google.svg" alt="google">
+                <img src="./assets/shared/desktop/nvidia.svg" alt="nvidia">
+              </picture>
+            </div>
+            <div class="col col-md-6 m-auto text-center text-xl-left info">
+              <h1>Who we work with</h1>
+              <p>Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users.</p>
+              <button class="about-us">About Us</button>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- After first footer -->
+        <section class="about-implementation">
+          <div class="implement container-xl container-xl-row flex-column m-auto">
+            <div class="row m-auto flex-column flex-xl-row justify-content-xl-between">
+              <picture class="col text-center">
+                <img src="./assets/home/desktop/illustration-easy-to-implement.svg" alt="easy implementation" class="script">
+              </picture>
+              <span class="col text-center align-self-xl-center">
+                <h1>Easy to implement</h1>
+                <p>Our API comes with just a few lines of code. You’ll be up and running in 
+                  no time. We built our documentation page to integrate payments functionality 
+                  with ease.</p>
+              </span>
+            </div>
+            <div class="row m-auto flex-column flex-xl-row justify-content-xl-between">
+              <picture class="col text-center order-xl-2">
+                <img src="./assets/home/desktop/illustration-simple-ui.svg" alt="Simple UI illustration" class="ui-illustrate">
+              </picture>
+              <span class="col text-center align-self-xl-center">
+                <h1>Simple UI & UX</h1>
+                <p>Our pre-built form is easy to integrate in your app or website’s checkout 
+                  flow and designed to optimize conversion.</p>
+              </span>
+            </div>
+          </div>
+
+          <div class="finances m-auto container-xl row flex-column flex-md-row">
+            <span class="col text-center m-auto">
+              <picture>
+                <img class="finance-img" src="./assets/home/desktop/icon-personal-finances.svg" alt="Personal finances">
+              </picture>
+              <p class="heading"><b>Personal Finances</b></p>
+              <p>Consolidate financial data from multiple sources and categorize transactions up to
+                2 years of history. Analyze reports to reconcile activities in your account.
+              </p>
+            </span>
+            <span class="col m-auto text-center middle">
+              <picture>
+                <img class="finance-img" src="./assets/home/desktop/icon-banking-and-coverage.svg" alt="Banking and coverage">
+              </picture>
+              <p class="heading"><b>Banking & Coverage</b></p>
+              <p>With our platform, you can speed up account onboarding and support ongoing payments 
+                for checking, savings, credit card, and brokerage accounts.
+              </p>
+            </span>
+            <span class="col m-auto text-center">
+              <picture>
+                <img class="finance-img" src="./assets/home/desktop/icon-consumer-payments.svg" alt="Consumer payments">
+              </picture>
+              <p class="heading"><b>Consumer Payments</b></p>
+              <p>It’s easier to set up secure bank payments with us through a flow designed with the 
+                user experience in mind. Customers could instantly authenticate their account.
+              </p>
+            </span>
+          </div>
+        </section>
+
+        <section class="ready m-auto container-xl row flex-column flex-xl-row">
+          <h1 class="text-center text-xl-left  col">Ready to start? </h1>
+          <span class="details col d-flex flex-column flex-sm-row m-auto ml-xl-0 justify-content-center justify-content-sm-between">
+            <input type="email" class="email border-0" placeholder="Enter email address">
+            <button class="schedule border-0 rounded-pill">Schedule a Demo</button>
+          </span>
+        </section>
+      
+      </main>
+      <!-- Page Footer -->
+      <footer>
+        <div class="container-xl m-auto text-center navbar-dark row flex-column flex-md-row">
+          <picture class="logo col nav-brand m-auto text-md-left">
+            <a class="nav-brand" href="./index.html"><img src="./assets/Logo-footer.svg" alt="Logo"></a>
+          </picture>
+          <div class="footer-navbar col row flex-column flex-md-row m-auto">
+
+            <nav class="flex-nav footer col">
+              <div class="navbar-nav row flex-md-row ">
+                <a class="nav-link col m-auto" href="/pricing.html">Pricing</a>
+                <a class="nav-link col m-auto" href="/about.html">About</a>
+                <a class="nav-link col m-auto" href="/contact.html">Contact</a>
+              </div>
+            </nav>
+            <span class="col text-md-right">
+              <picture>
+                <img src="./assets/shared/desktop/facebook.svg" alt="facebook" class="social">
+                <img src="./assets/shared/desktop/twitter.svg" alt="twitter" class="social">
+                <img src="./assets/shared/desktop/linkedin.svg" alt="linkedin" class="social">
+              </picture>
+            </span>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+    
+    </html>
